@@ -169,13 +169,11 @@
   }
 }
 
-.mobile-margin {
-  margin-top: 0px;
-}
-
 @media (max-width: 768px) {
   .mobile-margin {
-    margin-top: -100px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 }
 .logo-font {
@@ -308,3 +306,10 @@
     margin-top: 10px;
   }
 }
+
+@media (max-width: 768px) {
+  .logo-align {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
